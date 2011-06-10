@@ -1,0 +1,3 @@
+Added support for preset uploaded filename, and fixed double-extension bug on resized photos. This is because many people had weird characters in their files, which caused problems for our S3 bucket, and our background workers.
+
+To fixate filename, set file_post_type to the name desired, without any extensions.
